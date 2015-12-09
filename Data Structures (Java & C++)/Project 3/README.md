@@ -31,7 +31,7 @@ Print out results
 1. _listHead_ <== create a Linked List with a dummy Node  
 2. _data_ <== get a word from the input file  
 3. _current_ <== _listHead_  
-4. if _current.next_ != _NULL_ and if _current.next.data_ < _data_  
+4. if _current.next_ != _NULL_ and if _current.next.data_ != _data_  
 	_current_ = _current.next_  
 5. Repeat step 4 until condition fails  
 6. if _current.next_ != _NULL_ and if _current.next.data_ == _data_ ==> _current.next.count++_  
