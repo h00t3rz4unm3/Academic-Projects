@@ -9,7 +9,7 @@ Define a linkedList class that include:
     - a node pointer, named listHead  
     - a linkedList constructor  
  
-Insertion Sort Algorithm  
+###Insertion Sort Algorithm  
 0. Initializing everything for processing.  
 1. Open the input file for reading.  
 2. Count <== Read and count the number of data elements in the file  
