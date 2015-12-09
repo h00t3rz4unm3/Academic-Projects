@@ -1,12 +1,15 @@
-Name: Alexandru Gutu
-Problem Statement: 
+Name: Alexandru Gutu  
+
+
+Problem Statement:  
 1)	Suppose we are given a data file (data1.txt) which contains integers. We are interested to know:
 	a.	how many integers in data.txt
 	b.	the largest integer in data.txt
 	c.	the smallest integer in data.txt
 	d.	the average of all the integers in data.txt
 
-Algorithm: 
+
+Algorithm:  
 1)	Prepare everything that is needed (open files, import, etc)
 2)	Initialize all variables
 3)	Read data from file, one integer at a time
