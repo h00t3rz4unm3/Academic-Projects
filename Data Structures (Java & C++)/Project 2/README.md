@@ -28,7 +28,7 @@ Insertion Sort Algorithm
 13. repeat step 12 until _index_ < _spot_  
 14. _array[spot]_ <- _data_  
 15. Print _spot_, _last_ and the array from _array[0]_ to _array[last]_  
-        // see below for the output format  
+    // see below for the output format  
 15. Repeat step 7 to step 14 until file is empty  
 16. Close file  
 
