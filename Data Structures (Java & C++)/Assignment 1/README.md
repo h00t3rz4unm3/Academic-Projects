@@ -224,8 +224,11 @@ Iteration Number: 43 | Position Index: 42 | Minimum Index: 42
 
 
 There are: 43 integers
+
 The minimum is: -935
+
 The maximum is: 9999
+
 The average is: 977.3720930232558
 
 
