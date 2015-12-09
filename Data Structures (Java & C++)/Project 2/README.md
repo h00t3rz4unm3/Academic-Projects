@@ -43,30 +43,30 @@ Insertion Sort Algorithm
 5 21 3    
 
 ###Output:   
-**Last: 1 Data: 88 Spot: 0**  
+**Last: 1 | Data: 88 | Spot: 0**  
 88 99  
 
-**Last: 2 Data: 70 Spot: 0**  
+**Last: 2 | Data: 70 | Spot: 0**  
 70 88 99  
 
-**Last: 3 Data: 999 Spot: 3**  
+**Last: 3 | Data: 999 | Spot: 3**  
 70 88 99 999  
 
-**Last: 4 Data: 12 Spot: 0**  
+**Last: 4 | Data: 12 | Spot: 0**  
 12 70 88 99 999  
 
-**Last: 5 Data: 33 Spot: 1**  
+**Last: 5 | Data: 33 | Spot: 1**  
 12 33 70 88 99 999  
 
-**Last: 6 Data: 14 Spot: 1**  
+**Last: 6 | Data: 14 | Spot: 1**  
 12 14 33 70 88 99 999  
 
-**Last: 7 Data: 5 Spot: 0**  
+**Last: 7 | Data: 5 | Spot: 0**  
 5 12 14 33 70 88 99 999  
 
-**Last: 8 Data: 21 Spot: 3**  
+**Last: 8 | Data: 21 | Spot: 3**  
 5 12 14 21 33 70 88 99 999  
 
-**Last: 9 Data: 3 Spot: 0**  
+**Last: 9 | Data: 3 | Spot: 0**  
 3 5 12 14 21 33 70 88 99 999  
  
