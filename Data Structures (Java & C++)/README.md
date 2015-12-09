@@ -16,7 +16,7 @@
 Same as Assignment 1, but implement _selection sort_  
 
 
-#### Project 2 
+####Project 2 
 1-D array implementation of the Insertion Sort  
     Define a Node class that include:  
       - a string variable, named strData  
@@ -26,3 +26,10 @@ Same as Assignment 1, but implement _selection sort_
 Define a linkedList class that include:  
     - a node pointer, named listHead  
     - a linkedList constructor  
+
+
+####Project 3  
+Create a Linked List  
+Add words from input file into Linked List, keep it sorted using insertion sort  
+Count how many occurrences of each word happen  
+Print out results  
