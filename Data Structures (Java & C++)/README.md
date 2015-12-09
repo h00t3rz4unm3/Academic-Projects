@@ -16,7 +16,7 @@
 Same as Assignment 1, but implement _selection sort_  
 
 
-####Project 2 
+#### _Project 2_  
 1-D array implementation of the Insertion Sort  
     Define a Node class that include:  
       - a string variable, named strData  
@@ -28,7 +28,7 @@ Define a linkedList class that include:
     - a linkedList constructor  
 
 
-####Project 3  
+#### _Project 3_   
 Create a Linked List  
 Add words from input file into Linked List, keep it sorted using insertion sort  
 Count how many occurrences of each word happen  
