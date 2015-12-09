@@ -16,7 +16,7 @@
 Same as Assignment 1, but implement _selection sort_  
 
 
-###Project 2 
+#### Project 2 
 1-D array implementation of the Insertion Sort  
     Define a Node class that include:  
       - a string variable, named strData  
