@@ -35,7 +35,7 @@ public class Main
                 double average = 0.0;
 				
 				// Assuming input file will be stored in /data (relative to source file)
-				Scanner inFile = new Scanner(new FileReader("data1.txt"));
+				Scanner inFile = new Scanner(new FileReader("data/data1.txt"));
 
 // Step 3: Reading in data from the data file
 
