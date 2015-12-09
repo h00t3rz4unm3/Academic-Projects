@@ -7,21 +7,21 @@
 
 
 ###Algorithm:  
-1) Prepare everything that is needed (open files, import, etc)  
-2) Initialize all variables  
-3) Read data from file, one integer at a time  
-4) Assume data is integers and  
+1. Prepare everything that is needed (open files, import, etc)  
+2. Initialize all variables  
+3. Read data from file, one integer at a time  
+4. Assume data is integers and  
     a. Increase count variable  
     b. Add input to sum variable  
     c. Use if statement to compare input to highest value so far  
     d. Use if statement to compare input to lowest value so far  
-5)Repeat steps 3-4 until all data is read  
-6)Compute average  
-7)Display to console:  
-    a.Count  
-    b.largest  
-    c.Smallest  
-    d.Average  
+5. Repeat steps 3-4 until all data is read  
+6. Compute average  
+7. Display to console:  
+    a. Count  
+    b. largest  
+    c. Smallest  
+    d. Average  
 
 
 ###Input:  
