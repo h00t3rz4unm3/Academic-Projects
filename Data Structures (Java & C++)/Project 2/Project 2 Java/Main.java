@@ -91,7 +91,7 @@ public class Main
 
 						array[spot] = data;
 
-						System.out.println("Last: " + last + " Data: " + data + " Spot: " + spot);
+						System.out.println("Last: " + last + " | " + " Data: " + data + " | " + " Spot: " + spot);
 						for (int i = 0; i <= last; i++)
 							{
 								System.out.print(array[i] + " ");
