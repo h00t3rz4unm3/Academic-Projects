@@ -31,7 +31,7 @@ int main()
 {
     // Assuming data file will be in the same folder as the source code
     ifstream inFile;    
-	inFile.open("data/data1.txt");
+    inFile.open("data/data1.txt");
 	
 // Step 3: Reading in data from the data file
 
