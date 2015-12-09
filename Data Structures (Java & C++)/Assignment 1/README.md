@@ -1,7 +1,7 @@
-Name: Alexandru Gutu  
+#Name: Alexandru Gutu  
 
 
-Problem Statement:  
+#Problem Statement:  
 1)	Suppose we are given a data file (data1.txt) which contains integers. We are interested to know:
 	a.	how many integers in data.txt
 	b.	the largest integer in data.txt
@@ -9,7 +9,7 @@ Problem Statement:
 	d.	the average of all the integers in data.txt
 
 
-Algorithm:  
+#Algorithm:  
 1)	Prepare everything that is needed (open files, import, etc)
 2)	Initialize all variables
 3)	Read data from file, one integer at a time
@@ -27,7 +27,7 @@ c.	Smallest
 d.	Average
 
 
-Input:  
+#Input:  
 91 322 702  
 9999  
 12 133  
@@ -49,7 +49,7 @@ Input:
 538 32 -935 834 35 361 637  
 
 
-Output:  
+#Output:  
 Original Array:  
 91 322 702 9999 12 133 4152 213 23 1724 825 127 538 29 -91 92 93 730 361 637 2255 213 388 99 322 739 16 -702 95 588 3999 9599 945 818 19 420 538 32 -935 834 35 361 637  
 0  1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  
