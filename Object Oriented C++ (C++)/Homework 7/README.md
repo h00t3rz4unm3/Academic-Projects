@@ -1,0 +1,4 @@
+#### _Homework 7_
+The aim of this homework assignment is to practice writing template classes. You must use SafeArray template class and implement a SafeMatrix template class that will allow you to work with two dimensional arrays of any type. The boundaries are checked. You must be able to create instances of SafeMatrix template class like, 
+SafeMatrix<int> m(2,3); 
+The above statement will create a 2 by 3 dimensional array of integers. You must be able to access and set values using bracket operators. For example m[0][1] = 5; will set element at row 0 column 1 to an integer value 5. You must be able to return dimensions of the array as follows: m.length() will return the number of rows in your 2D array. m[0].length() will return number of columns in row number 0. Provide all necessary methods to your template class. Write a Driver program that tests your template class with at least two different types.
