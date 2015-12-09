@@ -122,11 +122,10 @@ public class Main
 		{
 
 			System.out.println();
-			System.out.println("**Iteration Number: " + iterationcounter + " | Position Index: " + position + " | Minimum Index: " + minindex + "**  ");
+			System.out.println("Iteration Number: " + iterationcounter + " | Position Index: " + position + " | Minimum Index: " + minindex);
 			for (int i = 0; i < count; i++)
 				{
 					System.out.print(array[i] + " ");
-					System.out.print(" ");
 					if ((i + 1) % 43 == 0)
 						{
 							System.out.println();
