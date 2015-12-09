@@ -21,8 +21,7 @@ Define a linkedList class that include:
 8. _array[last]_ <== _data_  
 9. _data_ <== get data from the input file  
 10. _spot_ <== find the index where _array[spot]_ > _data_  
-11. _last++_  
-         _index_ <== _last_  
+11. _last++_; _index_ <== _last_  
     // shift a block of array to the right one element at a time  
 12. _array[index]_ <== _array[index - 1]_; _index--_  
 13. repeat step 12 until _index_ < _spot_  
