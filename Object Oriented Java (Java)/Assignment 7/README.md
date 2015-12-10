@@ -15,6 +15,4 @@ You must create a main method that will call the constructor to this GUI object.
 
 The GUI object should interact with an instance of the TicTacToe class that you created in assignment 5. (some adjustments to that class might be necessary).  
 
-If you were unable to get a working version for assignment 5, I am planning on posting a version of the class on Thursday. If possible, I would perfer that you use your version.
-
 
