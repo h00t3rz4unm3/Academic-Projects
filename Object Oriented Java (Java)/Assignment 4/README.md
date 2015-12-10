@@ -4,6 +4,7 @@
    b. remove that node  
    c. create a new node, with the second value that was passed as a parameter  
    d. insert that new node in that same place in the linked list where the other node was removed  
+
 **********************  
 
 #### To think about
