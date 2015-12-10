@@ -24,7 +24,7 @@ I want you to create a main method in another class called Assignment6.
 The main method should create an instance of each of your classes, stack and queue.
 Using a for loop, insert an object into both the stack and the queue for the numbers 1 through 20. (use the for loop counter as the parameter being passed to the insert method.
 
-Then call method clearAll from both the queue and the stack.
+Then call method _clearAll_ from both the queue and the stack.
 
 ****Note****
-The delete method in class LinkedList took in an int as a parameter. In order for the children classes to override the parent classes' method, the method signature must match EXACTLY, including the parameter list. Therefore, the delete method of the children classes must take in an int value. The int taken as a parameter is NOT the value of the node to be deleted, since only one node could possibly be deleted in these structures (either the top or the front). Instead the int value is the number of nodes that should be deleted from the stack or queue. If the int passes as a parameter is greater than the number of nodes in the list, then the list should be completely emptied. Be careful to avoid null pointer exceptions.
+The delete method in class _LinkedList_ took in an int as a parameter. In order for the children classes to override the parent classes' method, the method signature must match EXACTLY, including the parameter list. Therefore, the delete method of the children classes must take in an int value. The int taken as a parameter is NOT the value of the node to be deleted, since only one node could possibly be deleted in these structures (either the top or the front). Instead the int value is the number of nodes that should be deleted from the stack or queue. If the int passes as a parameter is greater than the number of nodes in the list, then the list should be completely emptied. Be careful to avoid null pointer exceptions.
