@@ -16,10 +16,10 @@ In both _Stack_ and _Queue_:
 **4.**  Remember to update the count variable in all 3 of these methods.  
 **5.**  Create method clearAll in both classes. The method should look at the node at the top or front and print out to the console its int value, and then delete that node from the list, calling method delete. Continue printing and deleting until the structure (stack or queue) is empty. Use the count variable to determine when the structure is empty.  
 
-For class Stack, the head variable should point to the node at the top of the stack.  
-For class Queue, the head variable should point to the node at the front of the queue. In addition, I recommend that you have a   variable called "back" or "last" to point to the last node in the list.  
+For class _Stack_, the head variable should point to the node at the top of the stack.  
+For class _Queue_, the head variable should point to the node at the front of the queue. In addition, I recommend that you have a   variable called _back_ or _last_ to point to the last node in the list.  
 
-IN ADDITION:
+IN ADDITION:  
 I want you to create a main method in another class called Assignment6.
 The main method should create an instance of each of your classes, stack and queue.
 Using a for loop, insert an object into both the stack and the queue for the numbers 1 through 20. (use the for loop counter as the parameter being passed to the insert method.
