@@ -19,7 +19,7 @@ In both _Stack_ and _Queue_:
 For class _Stack_, the head variable should point to the node at the top of the stack.  
 For class _Queue_, the head variable should point to the node at the front of the queue. In addition, I recommend that you have a   variable called _back_ or _last_ to point to the last node in the list.  
 
-IN ADDITION:  
+**IN ADDITION:**    
 I want you to create a main method in another class called Assignment6.
 The main method should create an instance of each of your classes, stack and queue.
 Using a for loop, insert an object into both the stack and the queue for the numbers 1 through 20. (use the for loop counter as the parameter being passed to the insert method.
