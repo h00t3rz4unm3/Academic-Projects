@@ -4,12 +4,12 @@ Create a new Node class called Node3, which should behave the same as either the
 
 The LinkedList3 and Node3 classes should have the same functionality as the original classes. Feel free to copy and paste code from those pre-existing classes and then make whatever adjustments you need to make.
 
-Then create in a main method 3 instances of your LInkedList3 class:
+Then create in a _main_ method, 3 instances of your LInkedList3 class:
 **1.** one that stores int values as its data types
 **2.** another that stores Strings
 **3.** another that stores objects of type Node3 
 
-**NOTE**
+**NOTE**  
 In our methods we compared int values during some of the methods in LinkedList.
 String class has comparison methods built in. Use the java API to remind yourself how they are used. 
 The third data type is the new object that you are creating now. In order to enable simple comparisons to be made, I want you to have this new object implement the interface Compareable. Review the slide show on blackboard on generics, which will give you hints about this interface. Also, use the java API for help.
