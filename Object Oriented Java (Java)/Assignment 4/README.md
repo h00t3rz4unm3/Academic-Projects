@@ -11,11 +11,8 @@ This replace method inserts the new node in the same place that the other node w
 
 **********************
 
-2) Create a method called sum that will traverse (travel through) all of the nodes in a linked list and output (JOptionPane or to the console) the sum of the integers off all of those nodes.
+2. Create a method called _sum_ that will traverse all of the nodes in a linked list and output (JOptionPane or to the console) the sum of the integers off all of those nodes.
 
 **********************
 
-3) Create the method replace in class LinkedList2
-
-You can submit all 3 methods in one file, or you can place the methods in the LinkedList and LinkedList2 classes and submit the entire classes
-
+3. Create the method _replace_ in class LinkedList2
