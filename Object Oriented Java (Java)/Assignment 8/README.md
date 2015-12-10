@@ -12,5 +12,5 @@
   **b.** Create a method in class _LinkedList_ called _printBack()_ on its head variable. Create method _printBack_ in class Node. This method should output to the console in reverse order the data values in each node from the last node in the list until the current node. 
  
  
-So, for the example in part 2a, the output should look like: 13 12 11 10 9 8 7
+So, for the example in part 2a, the output should look like: **13 12 11 10 9 8 7**
 
