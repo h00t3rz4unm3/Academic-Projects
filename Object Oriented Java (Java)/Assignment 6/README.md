@@ -11,13 +11,13 @@ For Stack and Queue, the order is based on the order in which they were added. T
 Therefore, the insert and delete methods must be overridden.  
 In both Stack and Queue:  
 1.  Create one constructor that takes in a parameter of type int. The constructor should create a node with that int, and have the head variable point to it.  
-2.  Create a method to override the parent classes insert method
-3.  Create a method to override the parent classes delete method.  **** Note: see bottom****
-4.  Remember to update the count variable in all 3 of these methods.
-5.  Create method clearAll in both classes. The method should look at the node at the top or front and print out to the console its int value, and then delete that node from the list, calling method delete. Continue printing and deleting until the structure (stack or queue) is empty. Use the count variable to determine when the structure is empty.
+2.  Create a method to override the parent classes insert method  
+3.  Create a method to override the parent classes delete method.  **** Note: see bottom****  
+4.  Remember to update the count variable in all 3 of these methods.  
+5.  Create method clearAll in both classes. The method should look at the node at the top or front and print out to the console its int value, and then delete that node from the list, calling method delete. Continue printing and deleting until the structure (stack or queue) is empty. Use the count variable to determine when the structure is empty.  
 
-For class Stack, the head variable should point to the node at the top of the stack.
-For class Queue, the head variable should point to the node at the front of the queue. In addition, I recommend that you have a variable called "back" or "last" to point to the last node in the list.
+For class Stack, the head variable should point to the node at the top of the stack.  
+For class Queue, the head variable should point to the node at the front of the queue. In addition, I recommend that you have a   variable called "back" or "last" to point to the last node in the list.  
 
 IN ADDITION:
 I want you to create a main method in another class called Assignment6.
