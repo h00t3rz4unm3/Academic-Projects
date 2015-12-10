@@ -4,9 +4,9 @@
    b. remove that node  
    c. create a new node, with the second value that was passed as a parameter  
    d. insert that new node in that same place in the linked list where the other node was removed  
+**********************  
 
-**** To think about****
-
+#### To think about
 This replace method inserts the new node in the same place that the other node was deleted, however that might not be the correct place for this node (if we are keeping the list sorted). As a result you cannot call methods _delete_ or _insert_ here.
 
 **********************
