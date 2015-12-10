@@ -4,10 +4,10 @@ Create a new Node class called Node3, which should behave the same as either the
 
 The LinkedList3 and Node3 classes should have the same functionality as the original classes. Feel free to copy and paste code from those pre-existing classes and then make whatever adjustments you need to make.
 
-Then create in a _main_ method, 3 instances of your LInkedList3 class:
-**1.** one that stores int values as its data types
-**2.** another that stores Strings
-**3.** another that stores objects of type Node3 
+Then create in a _main_ method, 3 instances of your LInkedList3 class:  
+**1.** one that stores int values as its data types  
+**2.** another that stores Strings  
+**3.** another that stores objects of type Node3  
 
 **NOTE**  
 In our methods we compared int values during some of the methods in LinkedList.
