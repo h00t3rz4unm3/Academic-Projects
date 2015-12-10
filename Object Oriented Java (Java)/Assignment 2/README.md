@@ -1,6 +1,6 @@
 ### _Assignment 2_
 
-Create a class with a main method that creates 2 arrays, each of size 50 (or a length of 50 if you prefer)   .
+Create a class with a main method that creates 2 arrays, each of size 50 (or a length of 50 if you prefer).  
 One should be an array of Strings and the other an array of ints.  
 
 Use the random method of class Math to generate 50 numbers between the values 0 and 1000.  
