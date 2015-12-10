@@ -1,5 +1,5 @@
 
-Assignment 5
+### _Assignment 5_
 
 1)  Create a simple tic-tac-toe game. Create a double array (2 dimensional array) of type char to store the state of the tic-tac-toe board. (Each square has an 'X' and 'O' or is blank). Use JOptionPane to ask the user to pick a square. The input should be a single digit, “1” for the top left corner, “2” for top center square, “3” for top right square, etc. Use a loop to keep asking for the next move until the board is filled or until someone has one. You will have to create a way to check if a player won. Make this a separate method. There is a straighforward and thorough way to check and there is a more efficient way. Try to identify both and encode the more efficient way. If the user inputs a square that has already been picked or if it is an invalid entry, the user should be prompted for a different square. After each move, print out the current state of the board to the console. Call this class TTT1 or TicTacToe1, if you prefer.
 
