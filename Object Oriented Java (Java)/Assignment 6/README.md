@@ -1,13 +1,13 @@
 ### _Assignment 6_
 
 
-Create 2 classes, Stack and Queue, both of which will inherit from class LinkedList that we created together in class. (If you do not have a complete LinkedList class, contact me and I will give it to you.
-Here is what you have to do:
-In linkedList:
-1) add a variable of type int called count, which will keep track of how many nodes are in the list.
-2) make both variables count and head protected scope
+Create 2 classes, _Stack_ and _Queue_, both of which will inherit from class LinkedList that we created together in class. (If you do not have a complete LinkedList class, contact me and I will give it to you.  
+Here is what you have to do:  
+In _linkedList_:  
+1.  Add a variable of type int called count, which will keep track of how many nodes are in the list.  
+2.  Make both variables count and head protected scope  
 
-****For Stack and Queue, the order is based on the order in which they were added. These lists should not be sorted based on any value.
+For Stack and Queue, the order is based on the order in which they were added. These lists should not be sorted based on any value.
 Therefore, the insert and delete methods must be overridden.
 In both Stack and Queue:
 1)Create one constructor that takes in a parameter of type int.
