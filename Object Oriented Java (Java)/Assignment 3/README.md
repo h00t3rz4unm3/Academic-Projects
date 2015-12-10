@@ -1,12 +1,10 @@
+### _Assignment 3_
 
+We mentioned during lecture that Arrays are limited in two specific ways:  
+1) Their size is fixed and cannot be increased when needed.  
+2) Inserting into a sorted array would require a lot of work.  
 
-assignment 3
-
-We mentioned during lecture that Arrays are limited in two specific ways:
-1) Their size is fixed and cannot be increased when needed
-2) Inserting into a sorted array would require a lot of work.
-
-For this assignment you will create an object that will do the work to address both of these points.
+For this assignment you will create an object that will do the work to address both of these points.  
 
 
 Create an object called GSSArray. (it stands for growable self-sorting array)
