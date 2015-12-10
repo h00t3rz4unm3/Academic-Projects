@@ -8,6 +8,7 @@ When one of these 9 buttons is pressed:
   a. The text of the button should represent which player pressed the button.  
   b. the text field should change to indicate whose turn it is now  
   c. that button pressed should remain visible, but become disabled (look up method setEnabled)  
+  
 After a game is finished (either with a winner or a draw), the GUI object should again ask the user if they want to play and depending on the response from the user, a new game should be started or the program should close.  
 
 You must create a main method that will call the constructor to this GUI object. The method should be in its own class.  
