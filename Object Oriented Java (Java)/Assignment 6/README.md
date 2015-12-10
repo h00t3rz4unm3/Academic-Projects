@@ -1,5 +1,4 @@
-
-assignment 6
+### _Assignment 6_
 
 
 Create 2 classes, Stack and Queue, both of which will inherit from class LinkedList that we created together in class. (If you do not have a complete LinkedList class, contact me and I will give it to you.
