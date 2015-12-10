@@ -11,9 +11,9 @@ For _Stack_ and _Queue_, the order is based on the order in which they were adde
 Therefore, the _insert_ and _delete_ methods must be overridden.  
 In both _Stack_ and _Queue_:  
 **1.**  Create one constructor that takes in a parameter of type int. The constructor should create a node with that int, and have the head variable point to it.  
-**2.**  Create a method to override the parent classes insert method  
-**3.**  Create a method to override the parent classes delete method.  **** Note: see bottom****  
-**4.**  Remember to update the count variable in all 3 of these methods.  
+**2.**  Create a method to override the parent classes insert method.   
+**3.**  Create a method to override the parent classes delete method. (See note at bottom)  
+**4.**  Remember to update the count variable in all 3 of these methods.   
 **5.**  Create method clearAll in both classes. The method should look at the node at the top or front and print out to the console its int value, and then delete that node from the list, calling method delete. Continue printing and deleting until the structure (stack or queue) is empty. Use the count variable to determine when the structure is empty.  
 
 For class _Stack_, the head variable should point to the node at the top of the stack.  
