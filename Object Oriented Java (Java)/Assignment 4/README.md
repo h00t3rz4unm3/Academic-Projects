@@ -7,10 +7,6 @@
 
 This replace method inserts the new node in the same place that the other node was deleted, however that might not be the correct place for this node (if we are keeping the list sorted). As a result you cannot call methods _delete_ or _insert_ here.
 
-**********************
-
 2. Create a method called _sum_ that will traverse all of the nodes in a linked list and output (JOptionPane or to the console) the sum of the integers off all of those nodes.
-
-**********************
 
 3. Create the method _replace_ in class LinkedList2
