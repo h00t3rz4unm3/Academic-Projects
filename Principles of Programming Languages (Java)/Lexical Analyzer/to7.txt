@@ -1,0 +1,20 @@
+CS316   : Id
+_ : Lexical Error, invalid token
+CS316   : Id
+CS316   : Id
+*   : Mul
+abc   : Id
+CS316   : Id
+% : Lexical Error, invalid token
+000   : Int
+CS316   : Id
+# : Lexical Error, invalid token
+987098   : Int
+CS316   : Id
+|   : Or
+9867   : Int
+CS316   : Id
+@ : Lexical Error, invalid token
+CS313   : Id
+.e : Lexical Error, invalid token
+23   : Int
