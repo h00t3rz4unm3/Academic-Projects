@@ -1,4 +1,4 @@
-### Project 1 - Thread Synchronization
+### Project 1 - Thread Synchronization using Simulated Semaphores
 
 Through its implementation, this project will familiarize you with the creation and execution of threads, and with the use of the Thread class methods.  In order to synchronize the threads you will have to use: run( ), start( ), currentThread( ), getName( ), join( ), yield( ), sleep(time), isAlive( ), getPriority( ), setPriority( ), and interrupt( ) when necessary.  In synchronizing threads, do NOT use any semaphores, wait( ), notify( ) or notifyAll( ).  
 
