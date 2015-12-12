@@ -33,8 +33,10 @@ Choose appropriate amount of sleep time(s) that will agree with the content  of 
 4. The program asks you to create two different types of thread – student and teacher threads. For student thread type, there is more than one instance of the thread.  No manual specification of each thread's activity is allowed (e.g. no Student1.doErrands()).   
 5. Add the following lines to all the threads you make:  
     public static long time = System.currentTimeMillis();     
-    public void msg(String m) {  
-        System.out.println("["+(System.currentTimeMillis()-time)+"] "+getName()+": "+m);}  
+    public void msg(String m)  
+        {  
+            System.out.println("["+(System.currentTimeMillis()-time)+"] "+getName()+": "+m);
+        }  
 6. There should be printout messages indicating the execution interleaving. Whenever you want to print something from that thread use: msg("some message here");    
 7.  NAME YOUR THREADS or the above lines that were added would mean nothing. Here's how the constructors could look like (you may use any variant of this as long as each thread is unique and distinguishable):  
 // Default constructor public RandomThread(int id) {      setName("RandomThread-" + id); }  
