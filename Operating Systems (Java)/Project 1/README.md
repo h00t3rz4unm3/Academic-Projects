@@ -41,7 +41,12 @@ Choose appropriate amount of sleep time(s) that will agree with the content  of 
  ```  
 6. There should be printout messages indicating the execution interleaving. Whenever you want to print something from that thread use: msg("some message here");    
 7.  NAME YOUR THREADS or the above lines that were added would mean nothing. Here's how the constructors could look like (you may use any variant of this as long as each thread is unique and distinguishable):  
-// Default constructor public RandomThread(int id) {      setName("RandomThread-" + id); }  
+```Java 
+// Default constructor public RandomThread(int id) 
+     {
+         setName("RandomThread-" + id);
+     }  
+'''
 8. Design an OOP program. All thread-related tasks must be specified in its respective classes, no class body should be empty. An example demonstrating this is as follows:   
 public Student implements Runnable {   public void waitLecture() { … } …   public void run() { … waitLecture(); … }  }   
 9. No implementation of semaphores or use of wait( ), notify( ) or notifyAll( ) are allowed.  10. Thread.sleep() is not busy wait.   while (expr) {..} is busy wait.  
