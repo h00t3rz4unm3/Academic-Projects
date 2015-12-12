@@ -1,2 +1,5 @@
-# Academic-Projects
-All programming assignments done throughout my academic career
+### Operating Systems
+
+#### Project 1 - Thread Syncrhonization
+
+#### Project 2 - Thread Synchronization using Semaphores
