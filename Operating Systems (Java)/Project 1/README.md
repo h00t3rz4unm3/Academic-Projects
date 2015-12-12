@@ -15,7 +15,6 @@ The teacher teaches three classes.  Each class takes a fixed amount of time.  Be
 
 
 The school closes after the three classes end.  A daily report with information about what classes and when each student attended throughout the day must be displayed.  Something like: Student Name   Total Number of classes taken    Class Name (or number) 
-CSCI 340, Spring 2015 Instructor: Simina Fluture, PhD  
 
 
 When the school day ends, students go back to their dorms.  Each student will join another student; they will leave in sequential order. Student N joins with student N-1, student N-1 joins with N-2, …, student 2 joins with student 1 (use join( ), isAlive( )).  
