@@ -27,7 +27,9 @@ Choose appropriate amount of sleep time(s) that will agree with the content  of 
 
 ----------  
 
-Guidelines   1. Do not submit any code that does not compile and run. If there are parts of the code that contain bugs, comment it out and leave the code in. A program that does not compile nor run will not be graded.  2. Follow all the requirements of the Project’s description.  3. Main class is run by the main thread. The other threads must be manually specified by either implementing the Runnable interface or extending the Thread class. Separate the classes into separate files.  Do not leave all the classes in one file.  Create a class for each type of thread.   
+**Guidelines**  
+
+1. Do not submit any code that does not compile and run. If there are parts of the code that contain bugs, comment it out and leave the code in. A program that does not compile nor run will not be graded.  2. Follow all the requirements of the Project’s description.  3. Main class is run by the main thread. The other threads must be manually specified by either implementing the Runnable interface or extending the Thread class. Separate the classes into separate files.  Do not leave all the classes in one file.  Create a class for each type of thread.   
 4. The program asks you to create two different types of thread – student and teacher threads. For student thread type, there is more than one instance of the thread.  No manual specification of each thread's activity is allowed (e.g. no Student1.doErrands()).   
 5. Add the following lines to all the threads you make:  
     public static long time = System.currentTimeMillis();     public void msg(String m) {         System.out.println("["+(System.currentTimeMillis()-time)+"] "+getName()+": "+m);     }  
