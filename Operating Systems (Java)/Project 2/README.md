@@ -22,7 +22,7 @@ Next, student(s) will move on to the auditorium.  The student(s) will **wait** f
 Once having arrived at the school the teacher will teach three classes.  Each class takes a fixed amount of time.  Between any two classes there is a break.  The break between the second and third class is longer (doubled) due to office hours.   
 When all three classes end, students and teacher will head on to the cafeteria to have dinner.  Students will sit at the table in groups of **TableCapacity**.  Initially there are **numTables** tables available.  
 
-Students group in groups of size **TableCapacity**.  Once a group is formed if there is an available table the group will occupy the table.  If there is no table available the students of the group will **wait** __until the teacher assigns__ the next available table. The students leave the table in the order in which they took the table.   
+Students group in groups of size **TableCapacity**.  Once a group is formed if there is an available table the group will occupy the table.  If there is no table available the students of the group will **wait** _until the teacher assigns_ the next available table. The students leave the table in the order in which they took the table.   
 
 Initially, there are no students at the cafeteria.  
 
