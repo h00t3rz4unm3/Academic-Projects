@@ -35,7 +35,7 @@ Choose appropriate amount of sleep time(s) that will agree with the content  of 
     public static long time = System.currentTimeMillis();     
     public void msg(String m)  
         {  
-            System.out.println("["+(System.currentTimeMillis()-time)+"] "+getName()+": "+m);
+            System.out.println("["+(System.currentTimeMillis()-time)+"] "+getName()+": "+m);  
         }  
 6. There should be printout messages indicating the execution interleaving. Whenever you want to print something from that thread use: msg("some message here");    
 7.  NAME YOUR THREADS or the above lines that were added would mean nothing. Here's how the constructors could look like (you may use any variant of this as long as each thread is unique and distinguishable):  
