@@ -24,3 +24,20 @@ When the school day ends, students go back to their dorms.  Each student will jo
 Using Java programming, synchronize the two types of threads, student, teacher, in the context of the problem.  Closely follow the implementation requirements.  
 
 Choose appropriate amount of sleep time(s) that will agree with the content  of the story. 
+
+----------  
+
+Guidelines   1. Do not submit any code that does not compile and run. If there are parts of the code that contain bugs, comment it out and leave the code in. A program that does not compile nor run will not be graded.  2. Follow all the requirements of the Project’s description.  3. Main class is run by the main thread. The other threads must be manually specified by either implementing the Runnable interface or extending the Thread class. Separate the classes into separate files.  Do not leave all the classes in one file.  Create a class for each type of thread.   
+4. The program asks you to create two different types of thread – student and teacher threads. For student thread type, there is more than one instance of the thread.  No manual specification of each thread's activity is allowed (e.g. no Student1.doErrands()).   
+5. Add the following lines to all the threads you make:  
+    public static long time = System.currentTimeMillis();     public void msg(String m) {         System.out.println("["+(System.currentTimeMillis()-time)+"] "+getName()+": "+m);     }  
+6. There should be printout messages indicating the execution interleaving. Whenever you want to print something from that thread use: msg("some message here");    
+7.  NAME YOUR THREADS or the above lines that were added would mean nothing. Here's how the constructors could look like (you may use any variant of this as long as each thread is unique and distinguishable):  
+// Default constructor public RandomThread(int id) {      setName("RandomThread-" + id); }  
+8. Design an OOP program. All thread-related tasks must be specified in its respective classes, no class body should be empty. An example demonstrating this is as follows:   
+public Student implements Runnable {   public void waitLecture() { … } …   public void run() { … waitLecture(); … }  }   
+9. No implementation of semaphores or use of wait( ), notify( ) or notifyAll( ) are allowed.  10. Thread.sleep() is not busy wait.   while (expr) {..} is busy wait.  
+11. "Synchronized" is not FCFS implementation. “Synchronized” keyword in Java allows a lock on the method or on an object, any thread that accesses the lock first will control that block of code; it is used to enforce mutual exclusion on the critical section.  FCFS should be implemented in queue or other data structure.  
+12. DO NOT USE System.exit(0); the threads are supposed to terminate naturally by running to the end of their run methods.  
+13.  Command line arguments must be implemented to allow changes to the num_student  
+14.  Javadoc is not required. Proper basic commenting explaining the flow of program, self-explanatory variable names, correct whitespace and indentations are required. 
