@@ -46,12 +46,24 @@ Choose appropriate amount of sleep time(s) that will agree with the content  of 
         {
             setName("RandomThread-" + id);
         }
-'''
-
+```
 8. Design an OOP program. All thread-related tasks must be specified in its respective classes, no class body should be empty. An example demonstrating this is as follows:
 ```Java 
-public Student implements Runnable {   public void waitLecture() { … } …   public void run() { … waitLecture(); … }  }   
-'''
+        public Student implements Runnable 
+        {
+            public void waitLecture() 
+            {
+                … 
+            }
+                …   
+            public void run() 
+            { 
+                … 
+                waitLecture(); 
+                … 
+            }
+        }   
+```
 9. No implementation of semaphores or use of wait( ), notify( ) or notifyAll( ) are allowed.  
 10. Thread.sleep() is not busy wait. while (expr) {..} is busy wait.  
 11. "Synchronized" is not FCFS implementation. “Synchronized” keyword in Java allows a lock on the method or on an object, any thread that accesses the lock first will control that block of code; it is used to enforce mutual exclusion on the critical section.  FCFS should be implemented in queue or other data structure.  
