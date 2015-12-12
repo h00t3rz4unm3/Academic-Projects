@@ -1,6 +1,11 @@
 ### Project 2 - Thread Synchronzation using Semaphores
 
-The project must be done individually without any help.  No exceptions. You are asked to synchronize the two types of threads (Student and Teacher) of the following story using semaphores and operations on semaphores.   Do NOT use busy waiting. Do NOT use synchronized methods (beside the operations on semaphores).   Do NOT use wait( ), notify( ) or notifyAll( ) as monitor methods.  Use the semaphore class and its methods only.  
+You are asked to synchronize the two types of threads (Student and Teacher) of the following story using semaphores and operations on semaphores.   
+
+**Do NOT use busy waiting.**  
+**Do NOT use synchronized methods (beside the operations on semaphores).**  
+**Do NOT use wait( ), notify( ) or notifyAll( ) as monitor methods.**  
+Use the semaphore class and its methods only.  
 
 You should keep the concurrency of the threads as high as possible, however the access to shared structures has to be done in a Mutual Exclusive fashion, using a mutex semaphore.  
 
