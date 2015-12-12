@@ -15,7 +15,7 @@ The number of threads should be read as command line arguments.
         numTables = 3;  
 ```
 
-Students at the Blue College live in dorms.  In the morning, after the student wakes up (it will take a random time) he will head to the bathroom to get ready for a new school day.  If the bathroom is already taken, the student will wait for the bathroom to become available. Students will use the bathroom in a First Come First Serve basis.   
+Students at the Blue College live in dorms.  In the morning, after the student wakes up (it will take a random time) he will head to the bathroom to get ready for a new school day.  If the bathroom is already taken, the student will wait for the bathroom to become available.   
 
 Next, student(s) will move on to the auditorium.  The student(s) will wait for the teacher to arrive and enter the auditorium. If the class is in session the student will leave (use sleep(random time)) and come back later. Once the teacher enters the auditorium, he will signal the waiting students.  The class is now in session, the students that entered the auditorium will wait for the class to end.   
 
