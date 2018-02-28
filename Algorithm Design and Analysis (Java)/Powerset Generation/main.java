@@ -16,10 +16,6 @@ public class main
         try
         {
             // Debugging purposes
-//          String inputLocation = "C:\\Users\\Alex\\Dropbox\\School\\Queens College\\Spring I 2015\\Algorithm Design and Analysis\\Project 1\\Documents\\inputSet.txt";
-//			String inputLocation = "/Users/alexandrugutu/Dropbox/school/Queens College/Spring I 2015/Algorithm Design and Analysis/Project 1/Documents/inputSet.txt";
-//          String outputLocation = "C:\\Users\\Alex\\Dropbox\\School\\Queens College\\Spring I 2015\\Algorithm Design and Analysis\\Project 1\\Documents\\outputSets.txt";
-//			String outputLocation = "/Users/alexandrugutu/Dropbox/school/Queens College/Spring I 2015/Algorithm Design and Analysis/Project 1/Documents/outputSet.txt";
 
             // Argument definitions
 			String inputLocation = args[0];
